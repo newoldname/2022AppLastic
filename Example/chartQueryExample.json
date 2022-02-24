@@ -1,0 +1,234 @@
+{
+    "feed": {
+        "author": {
+            "name": {
+                "label": "iTunes Store"
+            },
+            "uri": {
+                "label": "http://www.apple.com/itunes/"
+            }
+        },
+        "entry": [
+            {
+                "im:name": {
+                    "label": "질병관리청 COOV(코로나19 전자예방접종증명서)"
+                },
+                "im:image": [
+                    {
+                        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/13/3e/38/133e386a-4c6a-3032-cbc8-addacb38d632/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/13/3e/38/133e386a-4c6a-3032-cbc8-addacb38d632/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/13/3e/38/133e386a-4c6a-3032-cbc8-addacb38d632/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "질병관리청과 (주)블록체인랩스에서 개발한 세계 최초 블록체인 기반의 코로나19 디지털 예방 접종 인증 앱입니다. 블록체인 기술을 이용해 디지털 증명서의 위변조를 불가능하게 하고, 증명서를 인증할 때 어떤 서버에도 기록을 남기지 않아 민감한 개인 정보를 완벽하게 보호할 수 있습니다.\n\n[서비스 대상]\n\n휴대폰 본인인증이 가능한 대한민국 국민이라면 누구나 코로나19 예방 접종 증명서를 발급받아 사용하실 수 있습니다.\n\n*본인 명의의 휴대폰이 없는 사용자는 일부 기능 사용에 제약이 있을 수 있습니다(증명서 검증 기능만 사용 가능)\n\n[주요 특징]\n\n1. 완벽한 개인 정보 보호\n- 블록체인 기술 기반으로 사용 이력을 서버에 남기지 않아 프라이버시를 완벽하게 보호합니다.\n2. 디지털 증명서의 제출 및 상대방 검증\n- 디지털 증명서를 상대방에게 제출할 수 있을 뿐만 아니라 상대방의 증명서를 QR 스캔을 통해 검증할 수 있습니다.\n3. 추가 정보 제공 기능을 통한 다양한 활용\n- 사용자의 선택에 따라 백신 접종 사실 이외의 다양한 추가 정보를 상대방에게 제공할 수 있습니다.\n4. 국가 예방 접종 시스템으로 활용\n- 코로나19 예방 접종 증명뿐만이 아닌 모든 예방 접종을 증명할 수 있는 시스템으로 활용될 예정입니다.\n5. 세계 각국 정부 및 단체가 자유롭게 사용 가능\n- COOV의 기반이 되는 글로벌 예방 접종 인증 솔루션을 세계 각국 정부 및 단체에 무료로 공급합니다. 글로벌 호환성을 통해 해외에서도 코로나19 예방 접종 유무를 증명할 수 있습니다.\n\n[주요 기능]\n\n1. 디지털 예방접종증명서의 발급 및 저장\n2. 일회용 QR 코드 생성으로 디지털 예방접종증명서 제출\n3. 상대방 QR 코드 스캔을 통한 예방접종증명서 검증\n4. 예방 접종 사실 이외의 추가 정보 제공 (이름, 생년월일, 국적 등)\n\n[질병관리청 콜센터 운영 시간 안내]\n\n1. 대표번호 : 국번없이 1339(무료)\n2. 운영시간 : 365일 24시간\n\n[접근 권한 및 목적 안내]\n\nCOOV는 상대방의 QR을 스캔하는 목적으로 카메라에 대한 선택 접근 권한 동의를 요청합니다.\n\n선택 접근 권한에 동의하지 않아도 해당 기능 외 서비스는 이용하실 수 있습니다."
+                },
+                "im:price": {
+                    "label": "받기",
+                    "attributes": {
+                        "amount": "0",
+                        "currency": "KRW"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "rights": {
+                    "label": "© 2021 KDCA and Blockchain Labs, Inc."
+                },
+                "title": {
+                    "label": "질병관리청 COOV(코로나19 전자예방접종증명서) - 질병관리청"
+                },
+                "link": [
+                    {
+                        "attributes": {
+                            "rel": "alternate",
+                            "type": "text/html",
+                            "href": "https://apps.apple.com/kr/app/%EC%A7%88%EB%B3%91%EA%B4%80%EB%A6%AC%EC%B2%AD-coov-%EC%BD%94%EB%A1%9C%EB%82%9819-%EC%A0%84%EC%9E%90%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%EC%A6%9D%EB%AA%85%EC%84%9C/id1561923765?uo=2"
+                        }
+                    },
+                    {
+                        "im:duration": {
+                            "label": "0"
+                        },
+                        "attributes": {
+                            "title": "미리보기",
+                            "rel": "enclosure",
+                            "type": "image/jpeg",
+                            "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/e7/e6/4d/e7e64dde-4f5f-5d31-34e1-8b66ba350fa5/f6bcae2c-ad48-4c2d-99f1-16fc38e2d7c8_1.png/1024x1024bb.png",
+                            "im:assetType": "preview"
+                        }
+                    }
+                ],
+                "id": {
+                    "label": "https://apps.apple.com/kr/app/%EC%A7%88%EB%B3%91%EA%B4%80%EB%A6%AC%EC%B2%AD-coov-%EC%BD%94%EB%A1%9C%EB%82%9819-%EC%A0%84%EC%9E%90%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%EC%A6%9D%EB%AA%85%EC%84%9C/id1561923765?uo=2",
+                    "attributes": {
+                        "im:id": "1561923765",
+                        "im:bundleId": "kr.go.kdca.coov"
+                    }
+                },
+                "im:artist": {
+                    "label": "질병관리청",
+                    "attributes": {
+                        "href": "https://apps.apple.com/kr/developer/%EC%A7%88%EB%B3%91%EA%B4%80%EB%A6%AC%EC%B2%AD/id515913298?uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6020",
+                        "term": "Medical",
+                        "scheme": "https://apps.apple.com/kr/genre/ios-%EC%9D%98%EB%A3%8C/id6020?uo=2",
+                        "label": "의료"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2021-04-15T00:00:00-07:00",
+                    "attributes": {
+                        "label": "2021.04.15"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "ABC마트의 통합 사이트 A-RT.COM"
+                },
+                "im:image": [
+                    {
+                        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/5b/79/b1/5b79b1e2-0a7d-2be8-9e4b-1f37f3c4eeea/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/5b/79/b1/5b79b1e2-0a7d-2be8-9e4b-1f37f3c4eeea/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/5b/79/b1/5b79b1e2-0a7d-2be8-9e4b-1f37f3c4eeea/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "신발에서 의류까지 다양한 상품과 컨텐츠를 만날 수 있는 A-RT.COM 입니다. \nABC마트와 그랜드스테이지의 모든 상품을 한 번에 만나보세요!\n\nA-RT.COM이란? \n(주)에이비씨마트코리아가 운영하는 쇼핑몰 ABC-MART, GRANDSTAGE가 A-RT.COM으로 통합되었어요. \n다양한 상품과 컨텐츠를 확인해보세요!\n\n통합 멤버십\nA-RT.COM과 전국 ABC마트, 그랜드스테이지 매장에서 통합된 멤버십 서비스를 이용할 수 있어요!\n\n모바일 쇼핑에 최적화\n쉽고 간편한 모바일 쇼핑 환경을 제공하기 위해 UI/UX를 개선하였습니다.\n간편하게 회원 가입하고 상품을 구매를 할 수 있어요!\n지문 및 페이스 로그인, 음성 검색, 바코드 검색 등으로 편리하게 쇼핑하세요!\n\n기프트카드\nAPP에서 기프트카드를 등록, 충전, 사용할 수 있습니다.\n전국 ABC마트, 그랜드스테이지 매장에서 바로 사용할 수 있어요!\n\n매장픽업 서비스\nAPP에서 주문하고 원하는 매장에서 픽업할 수 있습니다.\n반품, 교환, AS도 매장에서 접수 가능!\n\n※ APP 접근 권한 안내\n서비스에 필요한 접근권한을 안내드립니다.\n\n1. 필수 접근 권한 : 없음 \n\n2. 선택 접근 권한 : \n해당 기능을 사용할 때 동의를 받고 있으며, 동의를 하지 않아도 해당 기능 외의 서비스는 이용 가능합니다.\n1) 카메라 : 포토 상품 후기 및 1:1 상담 등의 글 작성 시, 바코드 스캔 시 사용\n2) 저장용량 : 상품 후기. 1:1 상담 등에 이미지 첨부 시 사용\n3) 마이크 : 음성 검색 시 사용\n4) 위치 : 가까운 매장 검색 시 사용\n5) 바이오 정보 : 지문/안면 인증 시 사용\n6) 전화 : 고객센터, 매장 등 전화번호 자동 연결 시 사용\n\n--\n\n이메일 : abcmartmobile@gmail.com\n연락처 : 1588-9667"
+                },
+                "im:price": {
+                    "label": "받기",
+                    "attributes": {
+                        "amount": "0",
+                        "currency": "KRW"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "rights": {
+                    "label": "© ABC-MART KOREA.co.,Ltd."
+                },
+                "title": {
+                    "label": "ABC마트의 통합 사이트 A-RT.COM - ABC-MART KOREA"
+                },
+                "link": [
+                    {
+                        "attributes": {
+                            "rel": "alternate",
+                            "type": "text/html",
+                            "href": "https://apps.apple.com/kr/app/abc%EB%A7%88%ED%8A%B8%EC%9D%98-%ED%86%B5%ED%95%A9-%EC%82%AC%EC%9D%B4%ED%8A%B8-a-rt-com/id1472679606?uo=2"
+                        }
+                    },
+                    {
+                        "im:duration": {
+                            "label": "0"
+                        },
+                        "attributes": {
+                            "title": "미리보기",
+                            "rel": "enclosure",
+                            "type": "image/jpeg",
+                            "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/4d/43/85/4d4385ef-9985-0fe2-b3ad-98577635b464/pr_source.jpg/480x480bb.jpg",
+                            "im:assetType": "preview"
+                        }
+                    }
+                ],
+                "id": {
+                    "label": "https://apps.apple.com/kr/app/abc%EB%A7%88%ED%8A%B8%EC%9D%98-%ED%86%B5%ED%95%A9-%EC%82%AC%EC%9D%B4%ED%8A%B8-a-rt-com/id1472679606?uo=2",
+                    "attributes": {
+                        "im:id": "1472679606",
+                        "im:bundleId": "com.art.app.primary"
+                    }
+                },
+                "im:artist": {
+                    "label": "ABC-MART KOREA",
+                    "attributes": {
+                        "href": "https://apps.apple.com/kr/developer/abc-mart-korea/id910444599?uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6024",
+                        "term": "Shopping",
+                        "scheme": "https://apps.apple.com/kr/genre/ios-%EC%87%BC%ED%95%91/id6024?uo=2",
+                        "label": "쇼핑"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2020-02-18T00:00:00-07:00",
+                    "attributes": {
+                        "label": "2020.02.18"
+                    }
+                }
+            }
+        ],
+        "updated": {
+            "label": "2022-02-19T06:01:45-07:00"
+        },
+        "rights": {
+            "label": "Copyright 2008 Apple Inc."
+        },
+        "title": {
+            "label": "iTunes Store:무료 앱 순위"
+        },
+        "icon": {
+            "label": "http://phobos.apple.com/favicon.ico"
+        },
+        "link": [
+            {
+                "attributes": {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?cc=kr&id=29141&popId=96"
+                }
+            },
+            {
+                "attributes": {
+                    "rel": "self",
+                    "href": "https://mzstoreservices-int.dslb.apple.com/kr/rss/topfreeapplications/limit=2/json"
+                }
+            }
+        ],
+        "id": {
+            "label": "https://mzstoreservices-int.dslb.apple.com/kr/rss/topfreeapplications/limit=2/json"
+        }
+    }
+}
