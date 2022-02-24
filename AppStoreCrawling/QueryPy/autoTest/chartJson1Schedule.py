@@ -1,6 +1,8 @@
+from datetime import datetime
 import json
 import time
 import requests
+import schedule
 
 
 # 조건에 맞게 요청URL을 만들고 json파일 반환 받기
@@ -133,8 +135,8 @@ def getChartID(jsonObject):
     for app in jsonObject['feed']['entry']:
         # 앱 고유 ID 저장
         appIdList.append(app['id']['attributes']["im:id"])
-        print(appIdList[-1])
-    print("================================")
+        #print(appIdList[-1])
+    #print("================================")
     return appIdList
     # ==차트에 대한 정보(갱신 시간, 차트 공식 이름)은 나중에 업데이트할 예정==#
 
@@ -143,6 +145,7 @@ def getChartID(jsonObject):
 def searchByIdAndCSV(appIdList, listName='topfreechart'):
     if len(appIdList) == 0: return 0
     nowRanking = 0  # 현재 링킹을 표시하기 위한 변수이다.
+
     filename = listName + '.json'
     f = open(filename, 'w', encoding='utf-8-sig', newline='')
 
@@ -151,7 +154,7 @@ def searchByIdAndCSV(appIdList, listName='topfreechart'):
         # === 남은 앱이 10개 미만일 때 인덱스 정확히 하기
         end = i + 10
         if end > len(appIdList): end = len(appIdList)
-        print("i: ", i, ", and end: ", end)
+        #print("i: ", i, ", and end: ", end)
 
         # 한 번에 앱 10개의 정보를 요청하기
         appIdListStr = ""
@@ -159,7 +162,7 @@ def searchByIdAndCSV(appIdList, listName='topfreechart'):
             appIdListStr = appIdListStr + j + ","
         # 앱 10개의 정보를 요청하는 URL
         lookAppUrl = 'https://itunes.apple.com/lookup?id=' + appIdListStr[:-1] + "&country=kr"
-        print(lookAppUrl)
+        #print(lookAppUrl)
 
         # 위에 만든 URL로 애플한테 json파일 받아오기
         lookAppJson = requests.get(lookAppUrl)
@@ -172,10 +175,22 @@ def searchByIdAndCSV(appIdList, listName='topfreechart'):
             nowRanking += 1
             app["Ranking"] = nowRanking
             oneRow = json.dumps(app, ensure_ascii=False)
-            print(oneRow)
+            #print(oneRow)
             f.write(oneRow)
             f.write("\n")
+        # time.sleep(0.2)
     f.close()
+
+def autoSchedule():
+    chartJson, chartName, countryName, appCategoryName = chartAppStore()
+    print("chart:", chartName)
+    appList = getChartID(chartJson)
+    print("applist:", len(appList))
+    nowTime = datetime.now()
+    timeStr = str(nowTime.year) + str(nowTime.month) + str(nowTime.day) + str(nowTime.hour) + str(nowTime.minute) + str(nowTime.second)
+    chartFileName = "abc"+str(len(appList)) + countryName + timeStr
+    searchByIdAndCSV(appList, listName=chartFileName)
+    print("writed")
 
 
 if __name__ == "__main__":
@@ -220,5 +235,10 @@ if __name__ == "__main__":
             print("크롤러 완료!")
         else:
             print("200이하의 자연수가 아닙니다.")
+    elif how == '3':
+        schedule.every(10).seconds.do(autoSchedule)
+        while True: 
+            schedule.run_pending() 
+            time.sleep(1)
     else:
         print("1 또는 2가 아닙니다.")

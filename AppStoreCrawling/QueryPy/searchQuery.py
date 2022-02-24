@@ -1,4 +1,3 @@
-import csv
 import json
 import time
 import requests
@@ -24,50 +23,15 @@ def SearchAppStore(searchName="game", searchType="ios", county="kr", appNum="50"
 # 받은 json파일을 분석해 필요한 정보를 csv파일으로 만들기
 def makeCSVfile(jsonObject, searchName="game"):
     # csv파일을 쓰기 시~작!
-    filename = searchName + 'QueryData.csv'
+    filename = searchName + '.json'
     f = open(filename, 'w', encoding='utf-8-sig', newline='')
-    writer = csv.writer(f)
-    writer.writerow(["AppName", 'isIphone', 'isIpad', 'AppRate', 'AppRateNum', 'AppMainCategory', 'AppPrice', 'AppUrl', 'AppDetail'])
 
     # 받은 모든 앱에 대한 응답에서
     for app in jsonObject['results']:
-        # print를 통해 코드를 이해하세요!
-        appName = app['trackName']
-        print('앱 이름:',appName)
-
-        iphok = False
-        if len(app['screenshotUrls']) > 0: iphok = True
-        ipadok = False
-        if len(app['ipadScreenshotUrls']) > 0: ipadok = True
-        print("iPhone 지원 여부:", iphok)
-        print("iPad 지원 여부:", ipadok)
-        
-        appRate = app['averageUserRating']
-        appRateNum = app['userRatingCount']
-        print('총 ', appRateNum,'명이 ',appRate,'점을 줌.')
-
-        mainCategory = app['primaryGenreName']
-        print("공식 메인 카테고리는:",mainCategory)
-
-        categorys = app['genres']
-        categorysIds = app['genreIds']
-        print('공식 세부 카테고리: ', end="")
-        for i in range(len(categorys)):
-            print('<', categorys[i], ', id=',categorysIds[i],'>', end="")
-        print()
-
-        appPrice = app['price']
-        print("가격:",appPrice)
-
-        appUrl = app['trackViewUrl']
-        print("앱 링크:", appUrl)
-
-        appDetail = app['description']
-        appDetail = appDetail.replace("\n", ".")
-        print("앱 상세 설명:",appDetail)
-
-        writer.writerow([appName, iphok, ipadok, appRate, appRateNum, mainCategory, appPrice, appUrl, appDetail])
-
+        oneRow = json.dumps(app, ensure_ascii=False)
+        print(oneRow)
+        f.write(oneRow)
+        f.write("\n")
         print("====================================================================")
 
 if __name__ == "__main__":

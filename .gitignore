@@ -1,1 +1,4 @@
-AppStoreCrawling/Query/autoTest/chartData
+AppStoreCrawling/Query/autoTest/*.json
+
+test.py
+
