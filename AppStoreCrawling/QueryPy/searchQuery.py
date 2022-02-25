@@ -32,7 +32,7 @@ def makeCSVfile(jsonObject, searchName="game"):
         print(oneRow)
         f.write(oneRow)
         f.write("\n")
-        print("====================================================================")
+        # print("====================================================================")
 
 if __name__ == "__main__":
     print("앱 스토어 검색/크롤러 프로그램입니다.")
