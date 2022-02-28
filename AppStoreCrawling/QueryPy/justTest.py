@@ -1,5 +1,4 @@
-from datetime import datetime
-print(str(datetime.now()))
+
 
 #
 #  a = {"1":2, "3":4}
