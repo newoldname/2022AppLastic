@@ -1,3 +1,5 @@
+# Version: 1.5
+# Date: 2022-02-28
 import json
 import time
 import requests
@@ -112,6 +114,7 @@ def chartAppStore(chartType="topfree", isIpadApp=False, appNum="100", country="k
         searchJson = requests.get(realUrl)
         searchJson.raise_for_status()
     else:
+        # 이는 나중에 카테고리 이름을 반환하기 위함이다.
         appCategory = "-1"
         categoryEngArr.append("All")
         categoryKorArr.append("All")
@@ -128,55 +131,82 @@ def chartAppStore(chartType="topfree", isIpadApp=False, appNum="100", country="k
 def getChartID(jsonObject):
     appIdList = []  # 차트안의 앱들의 고유ID를 저장하는 리스트
     if len(jsonObject['feed']) < 8:
-        return []
-    # 각 앱에 대해
-    for app in jsonObject['feed']['entry']:
-        # 앱 고유 ID 저장
-        appIdList.append(app['id']['attributes']["im:id"])
-        print(appIdList[-1])
-    print("================================")
-    return appIdList
-    # ==차트에 대한 정보(갱신 시간, 차트 공식 이름)은 나중에 업데이트할 예정==#
+        return [], "None"
+    
+    #차트 업데이트 시간 가져오기
+    chartTime = jsonObject['feed']['updated']['label']
+    
+    #차트에 앱 하나만 있을 때
+    if isinstance(jsonObject['feed']['entry'], dict):
+        appIdList.append(jsonObject['feed']['entry']['id']['attributes']['im:id'])
+        return appIdList, chartTime
+    else:# 앱 두개 이상이 있을 때
+        # 각 앱에 대해
+        for app in jsonObject['feed']['entry']:
+            # 앱 고유 ID 저장
+            appIdList.append(app['id']['attributes']['im:id'])
+            print(appIdList[-1])
+        print("================================")
+        return appIdList, chartTime
+        # ==차트에 대한 정보(갱신 시간, 차트 공식 이름)은 나중에 업데이트할 예정==#
 
 
-# 위에서 받은 앱 ID들의 정보을 받아오고 csv파일으로 저장하기
-def searchByIdAndCSV(appIdList, listName='topfreechart'):
-    if len(appIdList) == 0: return 0
+# 위에서 받은 앱 ID들의 정보을 받아오고 json파일으로 저장하기
+def searchByIdAndCSV(appIdList, countryCode, updateTime, listName='topfreechart'):
+    if len(appIdList) == 0: return 0 # 반환한 app 없으면 종료하기
+
     nowRanking = 0  # 현재 링킹을 표시하기 위한 변수이다.
+
+    #파일 쓰기 시작
     filename = listName + '.json'
     f = open(filename, 'w', encoding='utf-8-sig', newline='')
 
     # 앱 10개씩 돌린다. 
     for i in range(0, len(appIdList), 10):
-        # === 남은 앱이 10개 미만일 때 인덱스 정확히 하기
-        end = i + 10
-        if end > len(appIdList): end = len(appIdList)
-        print("i: ", i, ", and end: ", end)
+        # === 남은 앱이 10개 미만일 때 인덱스 정확히 하기 ======#
+        end = i + 10                                  #
+        if end > len(appIdList): end = len(appIdList) #
+        #print("i: ", i, ", and end: ", end)          #
+        ###############################################
 
         # 한 번에 앱 10개의 정보를 요청하기
         appIdListStr = ""
         for j in appIdList[i:end]:
             appIdListStr = appIdListStr + j + ","
+        
         # 앱 10개의 정보를 요청하는 URL
-        lookAppUrl = 'https://itunes.apple.com/lookup?id=' + appIdListStr[:-1] + "&country=kr"
+        lookAppUrl = 'https://itunes.apple.com/lookup?id=' + appIdListStr[:-1] + "&country=" + countryCode
         print(lookAppUrl)
-
         # 위에 만든 URL로 애플한테 json파일 받아오기
         lookAppJson = requests.get(lookAppUrl)
         lookAppJson.raise_for_status()
-
         # json.loads()함수는 json파일을 Python의 dict(딕셔너리) 형식으로 바꿔줍니다.
         lookAppDict = json.loads(lookAppJson.text)
+        
         # 각 앱에 대해
         for app in lookAppDict['results']:
+            #아이폰/아이패드 지원 여부 검토
+            iphoneOk = False
+            ipadOk = False
+            for suppoetName in app["supportedDevices"]:
+                if suppoetName.find("iPhone") != -1:
+                    iphoneOk = True
+                    break
+            for suppoetName in app["supportedDevices"]:
+                if suppoetName.find("iPad") != -1:
+                    ipadOk = True
+                    break
+
+            app["iPhoneSupport"] = iphoneOk
+            app["iPadSupport"] = ipadOk
             nowRanking += 1
             app["Ranking"] = nowRanking
+            app["UpdateTime"] = updateTime
             oneRow = json.dumps(app, ensure_ascii=False)
             print(oneRow)
             f.write(oneRow)
             f.write("\n")
     f.close()
-
 
 if __name__ == "__main__":
     print("앱 스토어 검색/크롤러 프로그램입니다.")
@@ -184,13 +214,12 @@ if __name__ == "__main__":
     if how == '1':
         print("=====================================================================")
         print('==예시는 "상위 100개"의 "한국" "아이폰" "무료 인기차트"이다.')
-        # print("==csv파일은 같은 경로에 topfreeiPhone100Data.csv로 저장됩니다.")
         print("==5초 뒤 크롤러가 시작됩니다.")
         time.sleep(5)
         chartJson, chartName, countryName, appCategoryName = chartAppStore()
-        appList = getChartID(chartJson)
+        appList, chartTimeStr = getChartID(chartJson)
         chartFileName = chartName + "iPhone" + str(len(appList)) + countryName + appCategoryName
-        searchByIdAndCSV(appList, listName=chartFileName)
+        searchByIdAndCSV(appList, countryName, chartTimeStr, listName=chartFileName)
     elif how == '2':
         isipad = False
         ipadCheck = input("아이폰 차트는 1, 아이패드 차트는 2를 입력하시고 Enter엔터를 누르세요: ")
@@ -213,10 +242,10 @@ if __name__ == "__main__":
             chartJson, chartName, countryName, appCategoryName = chartAppStore(chartType="none", isIpadApp=isipad,
                                                                                appNum=topNum, country="none",
                                                                                isAppCategory=isCategory)
-            appList = getChartID(chartJson)
+            appList, chartTimeStr= getChartID(chartJson)
             chartFileName = chartName + ("iPad" if isipad else "iPhone") + str(
                 len(appList)) + countryName + appCategoryName
-            searchByIdAndCSV(appList, listName=chartFileName)
+            searchByIdAndCSV(appList, countryName, chartTimeStr, listName=chartFileName)
             print("크롤러 완료!")
         else:
             print("200이하의 자연수가 아닙니다.")
