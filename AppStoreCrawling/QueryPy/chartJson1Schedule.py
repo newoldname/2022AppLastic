@@ -1,3 +1,5 @@
+# Version: 1.1
+# 페이지의 UpdateTime를 사용해 중복 파일을 검사함
 import os
 import json
 import time
@@ -5,6 +7,7 @@ import schedule
 import chartJson1 as chart
 # chartJson1 Version: 1.5
 
+a = 0 # debug
 
 # 차트 앱 고유 ID 받아오기
 def getChartIDScheduled(jsonObject):
@@ -14,18 +17,23 @@ def getChartIDScheduled(jsonObject):
 
     # 차트 업데이트 시간 가져오기
     chartTime = jsonObject['feed']['updated']['label']
-    chartNameArr = jsonObject['feed']['id']['label'].split("/")
+    chartNameArr = jsonObject['feed']['id']['label']
     realChartName = chartNameArr.split("/", 3)[-1]
 
     # 시간 파일 읽고 업데이트 시간 확인
-    f = open("timeChecker.json", 'r')
-    checkerDict = json.loads(f.read())
+    f = open("./timeChecker.json", 'r', encoding="utf-8")
+    fileString = f.read()
+    if fileString == "":
+        checkerDict = {}
+    else:
+        checkerDict = json.loads(fileString)
     f.close()
+
     if realChartName in checkerDict and checkerDict[realChartName] == chartTime:
         return [], "None"
     else:
         checkerDict[realChartName] = chartTime
-        f = open("timeChecker.json", 'w', encoding='utf-8-sig', newline='')
+        f = open("timeChecker.json", 'w', encoding='utf-8', newline='')
         json.dump(checkerDict, f, indent=2)
         f.close()
 
@@ -45,19 +53,21 @@ def getChartIDScheduled(jsonObject):
 
 
 def autoSchedule():
+    global a
+    a+=1
     chartJson, chartName, countryName, appCategoryName = chart.chartAppStore()
     appList, chartUpdateTime = getChartIDScheduled(chartJson)
-    chartFileName = "schedule" + str(len(appList)) + countryName + chartUpdateTime
+    chartFileName = str(a) + "schedule" + str(len(appList)) + countryName + chartUpdateTime
     chart.searchByIdAndCSV(appList, countryName, chartUpdateTime, listName=chartFileName)
-    print("Once")
+    print("Once, a=", a)
 
 
 if __name__ == "__main__":
     filePath = './timeChecker.json'
     if not os.path.isfile(filePath):
-        f = open("timeChecker.json", 'w', encoding='utf-8-sig', newline='')
+        f = open("timeChecker.json", 'w', encoding='utf-8', newline='')
         f.close()
-    schedule.every().hour.do(autoSchedule)
+    schedule.every().do(autoSchedule)
     while True:
         schedule.run_pending()
         time.sleep(1)
