@@ -1,6 +1,6 @@
 # Version: 1.2
 # 차트의 MD5를 사용해 중복 파일을 검사함
-from datetime import date, datetime
+from datetime import datetime
 import os
 import json
 import time
