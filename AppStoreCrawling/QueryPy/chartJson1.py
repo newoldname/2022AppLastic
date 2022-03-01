@@ -1,5 +1,6 @@
-# Version: 1.5
-# Date: 2022-02-28
+# Version: 1.5.1
+# 각각의 앱 정보를 출력할 지 결정하는 변수 추가함
+# 1.5와 호환합니다.
 import json
 import time
 import requests
@@ -152,7 +153,7 @@ def getChartID(jsonObject):
 
 
 # 위에서 받은 앱 ID들의 정보을 받아오고 json파일으로 저장하기
-def searchByIdAndCSV(appIdList, countryCode, updateTime, listName='topfreechart'):
+def searchByIdAndCSV(appIdList, countryCode, updateTime, listName='topfreechart', printAppLog=True):
     if len(appIdList) == 0: return 0  # 반환한 app 없으면 종료하기
 
     nowRanking = 0  # 현재 링킹을 표시하기 위한 변수이다.
@@ -176,7 +177,8 @@ def searchByIdAndCSV(appIdList, countryCode, updateTime, listName='topfreechart'
 
         # 앱 10개의 정보를 요청하는 URL
         lookAppUrl = 'https://itunes.apple.com/lookup?id=' + appIdListStr[:-1] + "&country=" + countryCode
-        print(lookAppUrl)
+        if printAppLog:
+            print(lookAppUrl)
         # 위에 만든 URL로 애플한테 json파일 받아오기
         lookAppJson = requests.get(lookAppUrl)
         lookAppJson.raise_for_status()
@@ -203,7 +205,8 @@ def searchByIdAndCSV(appIdList, countryCode, updateTime, listName='topfreechart'
             app["Ranking"] = nowRanking
             app["UpdateTime"] = updateTime
             oneRow = json.dumps(app, ensure_ascii=False)
-            print(oneRow)
+            if printAppLog:
+                print(oneRow)
             f.write(oneRow)
             f.write("\n")
     f.close()

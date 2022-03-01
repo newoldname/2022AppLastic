@@ -1,13 +1,13 @@
-# Version: 1.1
-# 페이지의 UpdateTime를 사용해 중복 파일을 검사함
+# Version: 1.2
+# 차트의 MD5를 사용해 중복 파일을 검사함
+from datetime import date, datetime
 import os
 import json
 import time
+import hashlib
 import schedule
 import chartJson1 as chart
-# chartJson1 Version: 1.5
-
-a = 0 # debug
+# chartJson1 Version: 1.5.1
 
 # 차트 앱 고유 ID 받아오기
 def getChartIDScheduled(jsonObject):
@@ -20,8 +20,8 @@ def getChartIDScheduled(jsonObject):
     chartNameArr = jsonObject['feed']['id']['label']
     realChartName = chartNameArr.split("/", 3)[-1]
 
-    # 시간 파일 읽고 업데이트 시간 확인
-    f = open("./timeChecker.json", 'r', encoding="utf-8")
+    # md5 파일 읽고 파트 중복을 확인
+    f = open("md5Checker.json", 'r', encoding="utf-8")
     fileString = f.read()
     if fileString == "":
         checkerDict = {}
@@ -29,11 +29,17 @@ def getChartIDScheduled(jsonObject):
         checkerDict = json.loads(fileString)
     f.close()
 
-    if realChartName in checkerDict and checkerDict[realChartName] == chartTime:
+    nowChartText = json.dumps(jsonObject['feed']['entry'], indent=2)
+    nowMd5 = hashlib.md5(nowChartText.encode('utf-8')).hexdigest()
+
+    print("NowTime: ", datetime.now().isoformat())
+    print("NowMd5: ", nowMd5)
+
+    if realChartName in checkerDict and checkerDict[realChartName] == nowMd5:
         return [], "None"
     else:
-        checkerDict[realChartName] = chartTime
-        f = open("timeChecker.json", 'w', encoding='utf-8', newline='')
+        checkerDict[realChartName] = nowMd5
+        f = open("md5Checker.json", 'w', encoding='utf-8', newline='')
         json.dump(checkerDict, f, indent=2)
         f.close()
 
@@ -46,28 +52,25 @@ def getChartIDScheduled(jsonObject):
         for app in jsonObject['feed']['entry']:
             # 앱 고유 ID 저장
             appIdList.append(app['id']['attributes']['im:id'])
-            print(appIdList[-1])
-        print("================================")
         return appIdList, chartTime
         # ==차트에 대한 정보(갱신 시간, 차트 공식 이름)은 나중에 업데이트할 예정==#
 
 
 def autoSchedule():
-    global a
-    a+=1
     chartJson, chartName, countryName, appCategoryName = chart.chartAppStore()
     appList, chartUpdateTime = getChartIDScheduled(chartJson)
-    chartFileName = str(a) + "schedule" + str(len(appList)) + countryName + chartUpdateTime
-    chart.searchByIdAndCSV(appList, countryName, chartUpdateTime, listName=chartFileName)
-    print("Once, a=", a)
-
+    chartFileName = "schedule" + str(len(appList)) + countryName + chartUpdateTime
+    if len(appList) > 0:
+        chart.searchByIdAndCSV(appList, countryName, chartUpdateTime, listName=chartFileName, printAppLog=False)
+        print("Crawling Done at ", datetime.now().isoformat())
+    print("==============================================")
 
 if __name__ == "__main__":
-    filePath = './timeChecker.json'
+    filePath = './md5Checker.json'
     if not os.path.isfile(filePath):
-        f = open("timeChecker.json", 'w', encoding='utf-8', newline='')
+        f = open("md5Checker.json", 'w', encoding='utf-8', newline='')
         f.close()
-    schedule.every().do(autoSchedule)
+    schedule.every(10).seconds.do(autoSchedule)
     while True:
         schedule.run_pending()
         time.sleep(1)
