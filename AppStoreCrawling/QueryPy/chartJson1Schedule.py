@@ -7,7 +7,7 @@ import time
 import hashlib
 import schedule
 import chartJson1 as chart
-# chartJson1 Version: 1.5.1
+# chartJson1 Version: 1.5.5
 
 # 차트 앱 고유 ID 받아오기
 def getChartIDScheduled(jsonObject):
@@ -70,7 +70,8 @@ if __name__ == "__main__":
     if not os.path.isfile(filePath):
         f = open("md5Checker.json", 'w', encoding='utf-8', newline='')
         f.close()
-    schedule.every(10).seconds.do(autoSchedule)
+    autoSchedule()
+    schedule.every(30).minutes.do(autoSchedule)
     while True:
         schedule.run_pending()
         time.sleep(1)

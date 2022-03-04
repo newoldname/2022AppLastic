@@ -1,6 +1,7 @@
-# Version: 1.5.1
-# 각각의 앱 정보를 출력할 지 결정하는 변수 추가함
-# 1.5와 호환합니다.
+# Version: 1.5.5
+# 버그 수정: request 오류 발생시 5번 추가 시도기로 바꿈
+# 버그 수정: chartAppstore함수의 논리적 오류를 수정함(requests.get를 두 번 함)
+# 1.5와 호환되지만, 1.5버전은 버그가 있어서 사용을 권하지 않습니다.
 import json
 import time
 import requests
@@ -112,8 +113,6 @@ def chartAppStore(chartType="topfree", isIpadApp=False, appNum="100", country="k
         # URL에 사용한 문자열 만들기
         chartDevice = chartType + deviceName
         realUrl = 'https://itunes.apple.com/' + country + '/rss/' + chartDevice + "/genre=" + appCategory + '/limit=' + appNum + '/json'
-        searchJson = requests.get(realUrl)
-        searchJson.raise_for_status()
     else:
         # 이는 나중에 카테고리 이름을 반환하기 위함이다.
         appCategory = "-1"
@@ -122,7 +121,16 @@ def chartAppStore(chartType="topfree", isIpadApp=False, appNum="100", country="k
         categoryIdArr.append("-1")
     # 위에 만든 URL로 애플한테 json파일 받아오기
     searchJson = requests.get(realUrl)
-    searchJson.raise_for_status()
+    for i in range(1,6):
+        if searchJson.status_code == requests.codes.ok:
+            break
+        else:
+            print("Requests.get오류 발생, ", i, "초 후에 다시 시도하겠습니다.")
+            time.sleep(i)
+            searchJson = requests.get(realUrl)
+
+        if i == 5:
+            searchJson.raise_for_status()
 
     # json.loads()함수는 json파일을 Python의 dist(딕셔너리) 형식으로 바꿔줍니다.
     return json.loads(searchJson.text), chartType, country, categoryKorArr[categoryIdArr.index(appCategory)]
@@ -181,7 +189,17 @@ def searchByIdAndCSV(appIdList, countryCode, updateTime, listName='topfreechart'
             print(lookAppUrl)
         # 위에 만든 URL로 애플한테 json파일 받아오기
         lookAppJson = requests.get(lookAppUrl)
-        lookAppJson.raise_for_status()
+        for i in range(1,6):
+            if lookAppJson.status_code == requests.codes.ok:
+                break
+            else:
+                print("Requests.get오류 발생, ", i, "초 후에 다시 시도하겠습니다.")
+                time.sleep(i)
+                lookAppJson = requests.get(lookAppUrl)
+
+            if i == 5:
+                lookAppJson.raise_for_status()
+
         # json.loads()함수는 json파일을 Python의 dict(딕셔너리) 형식으로 바꿔줍니다.
         lookAppDict = json.loads(lookAppJson.text)
 
