@@ -1,0 +1,2568 @@
+{
+    "feed": {
+        "author": {
+            "name": {
+                "label": "iTunes Store"
+            },
+            "uri": {
+                "label": "http://www.apple.com/itunes/"
+            }
+        },
+        "entry": [
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1384100045"
+                    },
+                    "name": {
+                        "label": "아무슨별명이 다사용중이야"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-06T05:14:03-07:00"
+                },
+                "im:rating": {
+                    "label": "3"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8426668828"
+                },
+                "title": {
+                    "label": "유튜브 오류개선"
+                },
+                "content": {
+                    "label": "갑자기 보던 웹드라마가 오류가 떳다며 탭해달라고 하는데 탭을 몇번이나 했는데 끊겨요. 그대로에요. 개선부탁드립니다.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id949079066"
+                    },
+                    "name": {
+                        "label": "으이깅"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-06T04:26:24-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8426526614"
+                },
+                "title": {
+                    "label": "광고"
+                },
+                "content": {
+                    "label": "다 좋은데 광고는 좀 적당히 떴으면 좋겠어요,,",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id945849206"
+                    },
+                    "name": {
+                        "label": "Yeji5680"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-06T01:58:02-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8426133893"
+                },
+                "title": {
+                    "label": "광고"
+                },
+                "content": {
+                    "label": "광고 적당히 해야지 영상 하나 보는데 무슨 야놀자 광고만 3번 봤어요.. 이게 말이 됩니까 ㅠㅠ 프리미엄 가입 안 했다고 아주 광고를 ... 영상 보기 전에만 광고 넣으면 되지 영상 보는데도 광고 천지고 심지어 같은 광고만 계속 주니까 야놀자 인식자체도 안 좋게 보이네요..",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id451054436"
+                    },
+                    "name": {
+                        "label": "ㅇ퍼ㅗㅇㅋㄱ"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-06T00:54:10-07:00"
+                },
+                "im:rating": {
+                    "label": "4"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8425972248"
+                },
+                "title": {
+                    "label": "다좋음"
+                },
+                "content": {
+                    "label": "다좋아요 근데요 재생목록 역순서로 재생할수있으면 감사할거 같아요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id719529804"
+                    },
+                    "name": {
+                        "label": "830264kjyA!"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T23:58:30-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8425834145"
+                },
+                "title": {
+                    "label": "백그라운드 재생 시 멈춤"
+                },
+                "content": {
+                    "label": "백그라운드 재생 때문에 프리미엄 결제했는데 정말 1분에 심할 때는 열번도 더 멈춥니다. 보통 1분에 2-3번 정도로 멈춤 현상이 생깁니다. 업데이트 모두 완료했고 자동재생 기능도 껐습니다. 제발 돈값하게 고쳐주세요…",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1351565133"
+                    },
+                    "name": {
+                        "label": "loading_now_1025"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T23:13:39-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8425727514"
+                },
+                "title": {
+                    "label": "나중에 볼 동영상 검색기능 만들어주세요"
+                },
+                "content": {
+                    "label": "지금 너무 영상이 쌓여있는데 찾기가 어려워요..\n기록 검색은 있는데 왜 나중에 볼 동영상이나 다른 재생목록은 왜 없는 건가요?",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1385881590"
+                    },
+                    "name": {
+                        "label": "커뮤 ㅠ̑̈"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T22:55:06-07:00"
+                },
+                "im:rating": {
+                    "label": "4"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8425683975"
+                },
+                "title": {
+                    "label": "태블릿으로 커뮤니티 보게 해주세요ㅠ ㅠ̑̈"
+                },
+                "content": {
+                    "label": "현제 유튜버로 활동 중인데요 커뮤니티가 안돼더라구요 삼성 태블릿은 되는 방법이 있던데 아이패드는 안돼서 너무 답답하고 짜증나요ㅠ 이 부분만 도쳐주시면 너무 좋을거 같애요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id202181261"
+                    },
+                    "name": {
+                        "label": "카루하"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T21:45:58-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8425527363"
+                },
+                "title": {
+                    "label": "실수로 로그인 했어요"
+                },
+                "content": {
+                    "label": "로그아웃 할수있게 만들어주세요!!!!!!",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1137675878"
+                    },
+                    "name": {
+                        "label": "올알칼캏티ㅛ탯캿카"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T21:32:00-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8425495171"
+                },
+                "title": {
+                    "label": "유튜브 자동재생"
+                },
+                "content": {
+                    "label": "아니 백그라운드에서 자동재생할려고 유튜브 프리미엄 쓰는데 계속 안될거면 프리미엄 왜 쓰나요;;; 오류쫌 빨리 고쳐주세요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1074667000"
+                    },
+                    "name": {
+                        "label": "강남스타일8살"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T21:25:10-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8425479454"
+                },
+                "title": {
+                    "label": "최고입니다"
+                },
+                "content": {
+                    "label": "제가 많이 접하는 미디어입니다",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1385814688"
+                    },
+                    "name": {
+                        "label": "오리동이"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T18:09:29-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8424985158"
+                },
+                "title": {
+                    "label": "소감"
+                },
+                "content": {
+                    "label": "세상에서 일등",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id814020013"
+                    },
+                    "name": {
+                        "label": "아루나누어누쟈아"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T16:06:11-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8424676819"
+                },
+                "title": {
+                    "label": "백그라운드 음악재생 안됨"
+                },
+                "content": {
+                    "label": "백그라운드에서 음악이 멈춥니다.\n설정에서 세팅 다 되어있고 앱 재설치\n폰 재부팅 다해봐도 안되네요\n빠른 조치 부탁드려요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "1"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "1"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id465842448"
+                    },
+                    "name": {
+                        "label": "ㄱㄷㅇㅊㅊ"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T12:06:26-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8424131184"
+                },
+                "title": {
+                    "label": "영상 넘어갈때"
+                },
+                "content": {
+                    "label": "렉 오지게 걸리네영 좀 고쳐주세요;;;\n화질 선택하는거 너무 불편해요 그냥 원래대로 해주셈",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id723169270"
+                    },
+                    "name": {
+                        "label": "예쁠윤"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T08:00:18-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8423440239"
+                },
+                "title": {
+                    "label": "채널 및 영상 차단을 위한 키워드 등록을 요청드립니다."
+                },
+                "content": {
+                    "label": "알고리즘과 쇼츠를 통해 즐거운 볼거리를 접할 수 있다는 장점은 있으나, 원하지 않는 채널 및 영상들이 보이면서 점점 불편해집니다. 특히 요즘 뜨는 걸그룹 노래가 쇼츠에 여러번 등장하니 반복되는 소리에 진절머리가 나더군요. 채널 추천 안 함 기능을 통해 정리중이긴 하나 한계가 있습니다. 좋아하지 않는 채널 및 관련 컨텐츠 등을 키워드로 차단할 수 있도록 만들어주셨으면 좋겠다는 마음에 의견 남깁니다.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1212192424"
+                    },
+                    "name": {
+                        "label": "내부 고발자93"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T05:19:20-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8422903454"
+                },
+                "title": {
+                    "label": "광고가 너무 많아요"
+                },
+                "content": {
+                    "label": "광고를 몇개를 넣는 건지…돈에 미친건가",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id432967046"
+                    },
+                    "name": {
+                        "label": "Youtube heavy user"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T04:07:23-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8422679478"
+                },
+                "title": {
+                    "label": "유아이버그제보"
+                },
+                "content": {
+                    "label": "프로2 10.5에서 작은 화면으로 봤을 때 버그가 생겨요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1314961697"
+                    },
+                    "name": {
+                        "label": "리뷰 작성녀입니다"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T02:55:04-07:00"
+                },
+                "im:rating": {
+                    "label": "3"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8422480590"
+                },
+                "title": {
+                    "label": "광고가 많아요"
+                },
+                "content": {
+                    "label": "다 좋은데 요즘 유튜브 프리미엄이 나오고 나서부터 광고가 너무 많아져서 불편하네요 예전엔 이 정도까진 아니였는데 그거 외엔 다 좋네요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id226110903"
+                    },
+                    "name": {
+                        "label": "pianistcupper"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T02:43:23-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8422450210"
+                },
+                "title": {
+                    "label": "크롬케스트 기기에서도 반복 재생이 되게 해주세요"
+                },
+                "content": {
+                    "label": "넘 불편해요.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1119186313"
+                    },
+                    "name": {
+                        "label": "닉 네 임 별 명"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T00:26:33-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8422108253"
+                },
+                "title": {
+                    "label": "그냥가냥"
+                },
+                "content": {
+                    "label": "그냥가냥",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id756310321"
+                    },
+                    "name": {
+                        "label": "\"@82"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-05T00:08:41-07:00"
+                },
+                "im:rating": {
+                    "label": "4"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8422065021"
+                },
+                "title": {
+                    "label": "오프라인 동영상 반복재생 버튼"
+                },
+                "content": {
+                    "label": "오프라인 동영상 전체 반복재생 버튼이 없어진 것 같은데요?\n\n(1) 버튼은 있지만, () - 저장된 전체음악 반복재생 버튼이 없어진 것 같아서 확인 부탁드리겠습니다.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1259284225"
+                    },
+                    "name": {
+                        "label": "ㅣ앚으ㅜ므타아오 답답해"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-04T20:05:45-07:00"
+                },
+                "im:rating": {
+                    "label": "3"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8421501681"
+                },
+                "title": {
+                    "label": "자꾸 동영상 멈춤"
+                },
+                "content": {
+                    "label": "깜빡거리면서 멈추는데 동영상 흐름 끊기게 하고 답답하고 빡침",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id519422052"
+                    },
+                    "name": {
+                        "label": "아기골절둘리"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-04T17:45:26-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8421140145"
+                },
+                "title": {
+                    "label": "혐오댓글"
+                },
+                "content": {
+                    "label": "혐오댓글 신고하면 좀 막든지 하세요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1232658020"
+                    },
+                    "name": {
+                        "label": "chdjsjjwjcjjeicjd"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-04T10:51:09-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8420177824"
+                },
+                "title": {
+                    "label": "아이폰 12 꽉찬화면 기능 추가해주세요"
+                },
+                "content": {
+                    "label": "ㆍ아이폰 12 꽉찬화면 기능 추가해주세요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id234547406"
+                    },
+                    "name": {
+                        "label": "bbhing72"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-04T08:15:00-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8419770169"
+                },
+                "title": {
+                    "label": "Love 💕 it"
+                },
+                "content": {
+                    "label": "I love YouTube ever whatever I search everything s here.. thanks YouTube",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1105448418"
+                    },
+                    "name": {
+                        "label": "찌찌녀 치워줘요"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-04T06:18:30-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8419415762"
+                },
+                "title": {
+                    "label": "아니 ㅅ발 찌찌녀 광고좀 그만 처 나오게 해줘요"
+                },
+                "content": {
+                    "label": "동네친구 심쿵 ㅇㅈㄹ하면서 신고해도 계속 뜨는데 얼마나 ㅈ같은지 ㅃㄹ 해결하세요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1371834012"
+                    },
+                    "name": {
+                        "label": "광고 좀 줄여주세여어어엇"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-04T04:54:25-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8419147284"
+                },
+                "title": {
+                    "label": "광고 좀 줄여주세요"
+                },
+                "content": {
+                    "label": "광고 줄여주세요 부탁드립니다",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1021533286"
+                    },
+                    "name": {
+                        "label": "렉 싫어!"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-04T04:35:24-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8419088771"
+                },
+                "title": {
+                    "label": "업데이트ㅋㅋ"
+                },
+                "content": {
+                    "label": "혹시 힘드시다면 다음 업데이트에 당근을 넣어주세요🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1342907861"
+                    },
+                    "name": {
+                        "label": "하마옭"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-04T00:04:24-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8418431639"
+                },
+                "title": {
+                    "label": "광고"
+                },
+                "content": {
+                    "label": "광고가 예전에는 1개씩 나왔는데 이제는 거의 확정적으로 2개가 연속으로 나옵니다 물론 이 리뷰를 보진 얺겠지만 수정 좀 부탁드립니다 볼때마다 짜증이 납니다 게다가 15초 씩이나 하는게 2연속으로 나오는데 스킵불거 장난합니까",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id561663942"
+                    },
+                    "name": {
+                        "label": "yuin0328"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T23:20:08-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8418340285"
+                },
+                "title": {
+                    "label": "구독 채널"
+                },
+                "content": {
+                    "label": "내가 구독한 채널을 직접 카테고리로 설정해 정리하는 기능이 있었으면 좋겠습니다. 원하는 채널을 찾는데 불편합니다!",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1165033964"
+                    },
+                    "name": {
+                        "label": "께과신"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T20:30:23-07:00"
+                },
+                "im:rating": {
+                    "label": "2"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8418000366"
+                },
+                "title": {
+                    "label": "아이패드"
+                },
+                "content": {
+                    "label": "아이패드 사용자인데 들어가면 꺼지고 들어가면 꺼집니다. 결국 패드를 껏다 켜야 들어가지는데 이런점 수정 부탁드립니다.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id496989099"
+                    },
+                    "name": {
+                        "label": "백그라운드 오류 고쳐주세요"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T20:00:35-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8417937119"
+                },
+                "title": {
+                    "label": "유튜브 백그라운드 오류 좀 고쳐주세요"
+                },
+                "content": {
+                    "label": "유튜브 프리미엄 쓰는 사람입니다\n며칠전만해도 잘되던게 \n갑자기 백그라운드 재생 후 다음 영상으로 넘어가면 재생이 전혀 안됩니다 \n에어팟끼고 넘겨봐도 안되고 유튜브 백그라운드 재생 후 홈화면에서 다음영상 누르고 재생버튼 눌러도 재생이 안되네요\n유튜브 문제인가 싶어 지웠다가 깔아보고 \n계정 로그아웃해보기도 업뎃나온거 업데이트 해봤는데도 안되네요\n근데 신기하게 유튜브 뮤직은 또 백그라운드 재생이 잘되네요\n유튜브 어플만 안되는거 보니 버그가 맞는거같습니다\n찾아보니 저만 그런게 아니라 현재 백그라운드 재생 질 안되시는분들 꽤 되시는거 같은데 버그수정 부탁드립니다.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "1"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "1"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id169754359"
+                    },
+                    "name": {
+                        "label": "Murtiy"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T17:28:25-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8417591052"
+                },
+                "title": {
+                    "label": "자동실행"
+                },
+                "content": {
+                    "label": "아니 왜 블루투스 연결만 되면 자동 소리가 재생되니 짜증남다.프리미어 구독 해지한다.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1117424827"
+                    },
+                    "name": {
+                        "label": "크크큿크크큭"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T17:18:52-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8417568938"
+                },
+                "title": {
+                    "label": "요즘 문제 많음"
+                },
+                "content": {
+                    "label": "유튜브 프리미엄 판매 때문인 것 같은데 광고 내보는 것 좋아요 하지만 부적절한 내용 및 해당 상품과 전혀 상관 없는 내용의 광고 및 무분별하게 나오는 광고 그리고 15초 광고 2번연속 나오는 것 심지어 스킵도 안됨 유튜브 프리미엄 오래 썼지만 일반 유저도 어느정도는 타협하고 쓰게 해주면 좋겠음",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id710647915"
+                    },
+                    "name": {
+                        "label": "사고친"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T16:10:15-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8417414229"
+                },
+                "title": {
+                    "label": "김어준 뉴스공장"
+                },
+                "content": {
+                    "label": "공정보도.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id812138591"
+                    },
+                    "name": {
+                        "label": "조당근"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T14:14:33-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8417163661"
+                },
+                "title": {
+                    "label": "자동재생"
+                },
+                "content": {
+                    "label": "유튜브 프리미엄쓰는데 백그라운드에서 자동재생이 안되잖아요씨발",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "1"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "1"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1352090875"
+                    },
+                    "name": {
+                        "label": "불가조마르코"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T09:28:44-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8416505973"
+                },
+                "title": {
+                    "label": "펜타곤신원 팬이 됐네요"
+                },
+                "content": {
+                    "label": "헤헤",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1171858364"
+                    },
+                    "name": {
+                        "label": "cigal05"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T07:32:42-07:00"
+                },
+                "im:rating": {
+                    "label": "4"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8416186728"
+                },
+                "title": {
+                    "label": "요즘 광고가 너무 심한것 같아요"
+                },
+                "content": {
+                    "label": "저번 주까진 5초 후 건너뛰기 광고들이 꽤 있어서 참을만했는데 요즘은 광고 2~3개까지 되고 이것들 전부 다 건너뚜리 수 없는 광고들로 채워넣으니 심하면 영상 하나 보는데 2~3분이 걸리더라고요.. 정말 잘 보고있지만 이건 조금 보는데 불편해요…",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id699377942"
+                    },
+                    "name": {
+                        "label": "빔수"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T07:28:00-07:00"
+                },
+                "im:rating": {
+                    "label": "4"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8416172943"
+                },
+                "title": {
+                    "label": "구독 관련 기능"
+                },
+                "content": {
+                    "label": "제가 좋아하는 유튜브를 구독하고 난 뒤에, 그룹화를 할 수 있는 기능이 생기면 좋을 것 같습니다",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id430230676"
+                    },
+                    "name": {
+                        "label": "우리집하녀"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T04:52:12-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8415701571"
+                },
+                "title": {
+                    "label": "티비로볼때"
+                },
+                "content": {
+                    "label": "왜 재생속도 없어요!!!!?",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1384578661"
+                    },
+                    "name": {
+                        "label": "뿌앵.."
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-03T01:35:29-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8415203648"
+                },
+                "title": {
+                    "label": "흠..."
+                },
+                "content": {
+                    "label": "앱은 좋긴한데 추천 영상이 넘 ..",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1347612451"
+                    },
+                    "name": {
+                        "label": "자몽머글래요"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-02T20:06:11-07:00"
+                },
+                "im:rating": {
+                    "label": "2"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8414526649"
+                },
+                "title": {
+                    "label": "유튜브 프리미엄 광고"
+                },
+                "content": {
+                    "label": "하루에도 수십번씩 뜨는 유튜브 프리미엄 광고 때문에 도저히 눈뜨고 봐줄수가 없음 ^^ dont be evil? Be evil ^^",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1140545878"
+                    },
+                    "name": {
+                        "label": "만오으인"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-02T17:54:30-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8414223512"
+                },
+                "title": {
+                    "label": "제발"
+                },
+                "content": {
+                    "label": "광고좀 적당히 틀어제껴라",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1287045667"
+                    },
+                    "name": {
+                        "label": "시금치내놔"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-02T12:05:07-07:00"
+                },
+                "im:rating": {
+                    "label": "3"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8413452802"
+                },
+                "title": {
+                    "label": "영상 제목 글꼴이.."
+                },
+                "content": {
+                    "label": "어느센가 부담스럽게 업데이트되었네요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1384701867"
+                    },
+                    "name": {
+                        "label": "응애사과"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-02T09:29:44-07:00"
+                },
+                "im:rating": {
+                    "label": "3"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8413085737"
+                },
+                "title": {
+                    "label": "아이폰13pro max 유튜브 가로모드 안됨"
+                },
+                "content": {
+                    "label": "폰 바꾼지 하루도 안됬는데 (유튜브)만 가로모드가 안되요…다른 것들은 다 정상적인데 유튜브 홈화면 에서만 가로모드가 안되네요….",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1299287913"
+                    },
+                    "name": {
+                        "label": "손진아 ."
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-02T08:33:28-07:00"
+                },
+                "im:rating": {
+                    "label": "3"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8412938343"
+                },
+                "title": {
+                    "label": "유투브 시청기록"
+                },
+                "content": {
+                    "label": "유튜브 내 시청 기록 짤려요 ;;; 쭉 내리면 다 나오게 개선 부탁드립니다 꼭 불편해요..",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id876710007"
+                    },
+                    "name": {
+                        "label": "유튜븝신"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-02T06:27:07-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8412573358"
+                },
+                "title": {
+                    "label": "환불해주세요"
+                },
+                "content": {
+                    "label": "아니 갑자기 결제가 되네 ㅋㅋㅋ 어이없게 돈을 그렇게 벌고 싶은건가 환불좀요 ㅋㅋ",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1384643515"
+                    },
+                    "name": {
+                        "label": "니디다다"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-02T05:56:49-07:00"
+                },
+                "im:rating": {
+                    "label": "5"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8412481662"
+                },
+                "title": {
+                    "label": "너무좋아요"
+                },
+                "content": {
+                    "label": "굿",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1384629652"
+                    },
+                    "name": {
+                        "label": "나쟈바"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-02T05:45:59-07:00"
+                },
+                "im:rating": {
+                    "label": "1"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8412448566"
+                },
+                "title": {
+                    "label": "자동재생이 안 되네요"
+                },
+                "content": {
+                    "label": "자동재생 당연히 켜뒀습니다 백그라운드 상태에서 자동재생이 안 되어서 영상이 넘어가질 않는데 이러면 유튜브 프리미엄 왜 결제한 건지 모르겠네요",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "1"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "1"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id503220017"
+                    },
+                    "name": {
+                        "label": "드웨인존슨즈"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-02T04:36:31-07:00"
+                },
+                "im:rating": {
+                    "label": "3"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8412238420"
+                },
+                "title": {
+                    "label": "IPad Pro 11 some bugs exist"
+                },
+                "content": {
+                    "label": "Youtube shows very smaller in small screen. If I change the YouTube full screen to a small screen, it works normally.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            },
+            {
+                "author": {
+                    "uri": {
+                        "label": "https://itunes.apple.com/kr/reviews/id1305483328"
+                    },
+                    "name": {
+                        "label": "크림파스타가 좋아!"
+                    },
+                    "label": ""
+                },
+                "updated": {
+                    "label": "2022-03-01T20:22:42-07:00"
+                },
+                "im:rating": {
+                    "label": "4"
+                },
+                "im:version": {
+                    "label": "17.08.2"
+                },
+                "id": {
+                    "label": "8411133725"
+                },
+                "title": {
+                    "label": "유후"
+                },
+                "content": {
+                    "label": "영상 보기에는 좋음. 워낙 유명하기도 하고.\n하지만 광고는 많은 편.\n심지어 건너뛰기도 없는 광고가 대다수인데다가\n영상 시작 끝에는 무조건 광고\n광고가 두개나 나오는 경우도 있음.\n그래도 전체적으로 꽤 괜찮음.",
+                    "attributes": {
+                        "type": "text"
+                    }
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "related",
+                        "href": "https://itunes.apple.com/kr/review?id=544007664&type=Purple%20Software"
+                    }
+                },
+                "im:voteSum": {
+                    "label": "0"
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "앱"
+                    }
+                },
+                "im:voteCount": {
+                    "label": "0"
+                }
+            }
+        ],
+        "updated": {
+            "label": "2022-03-07T08:51:43-07:00"
+        },
+        "rights": {
+            "label": "Copyright 2008 Apple Inc."
+        },
+        "title": {
+            "label": "iTunes Store:사용자 후기"
+        },
+        "icon": {
+            "label": "http://phobos.apple.com/favicon.ico"
+        },
+        "link": [
+            {
+                "attributes": {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://apps.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=kr&id=29141"
+                }
+            },
+            {
+                "attributes": {
+                    "rel": "self",
+                    "href": "https://mzstoreservices-int-st.itunes.apple.com/kr/rss/customerreviews/id=544007664/json"
+                }
+            },
+            {
+                "attributes": {
+                    "rel": "first",
+                    "href": "https://itunes.apple.com/kr/rss/customerreviews/page=1/id=544007664/sortby=mostrecent/xml?urlDesc=/customerreviews/id=544007664/json"
+                }
+            },
+            {
+                "attributes": {
+                    "rel": "last",
+                    "href": "https://itunes.apple.com/kr/rss/customerreviews/page=10/id=544007664/sortby=mostrecent/xml?urlDesc=/customerreviews/id=544007664/json"
+                }
+            },
+            {
+                "attributes": {
+                    "rel": "previous",
+                    "href": "https://itunes.apple.com/kr/rss/customerreviews/page=1/id=544007664/sortby=mostrecent/xml?urlDesc=/customerreviews/id=544007664/json"
+                }
+            },
+            {
+                "attributes": {
+                    "rel": "next",
+                    "href": "https://itunes.apple.com/kr/rss/customerreviews/page=2/id=544007664/sortby=mostrecent/xml?urlDesc=/customerreviews/id=544007664/json"
+                }
+            }
+        ],
+        "id": {
+            "label": "https://mzstoreservices-int-st.itunes.apple.com/kr/rss/customerreviews/id=544007664/json"
+        }
+    }
+}
