@@ -44,8 +44,12 @@ def getReview2Json(dictArr, appid):
 
 def simpleReview(appid, countryCode="kr"):
     getReview2Json(getWeb2Dict(appid), appid)
+    print("리뷰 크롤링 완료")
 
-simpleReview("544007664")
+
+id = int(input("예시를 보고 싶으면 1를 입력하시고, 특정 앱의 리뷰를 보고 싶으면 앱의 id를 입력하세요"))
+if id == 1: id = "544007664"
+simpleReview(str(id))
 
 
 
